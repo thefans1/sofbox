@@ -25,31 +25,31 @@ export class NavBar1Component implements OnInit {
   messagesList = [
     {
       title: 'Nik Emma Watson',
-      image: 'assets/images/user/01.jpg',
+      image: './assets/images/user/01.jpg',
       link: '#',
       date_format: '13 Apr'
     },
     {
       title: 'Lorem Ipsum Watson',
-      image: 'assets/images/user/02.jpg',
+      image: './assets/images/user/02.jpg',
       link: '#',
       date_format: '20 Jun'
     },
     {
       title: 'Why do we use it?',
-      image: 'assets/images/user/03.jpg',
+      image: './assets/images/user/03.jpg',
       link: '#',
       date_format: '08 July'
     },
     {
       title: 'Variations Passages',
-      image: 'assets/images/user/04.jpg',
+      image: './assets/images/user/04.jpg',
       link: '#',
       date_format: '12 Sep'
     },
     {
       title: 'Lorem Ipsum generators',
-      image: 'assets/images/user/05.jpg',
+      image: './assets/images/user/05.jpg',
       link: '#',
       date_format: '5 Dec'
     }
@@ -67,21 +67,21 @@ export class NavBar1Component implements OnInit {
     {
       title: 'Emma Watson Nik',
       sub_title: '95 MB',
-      image: 'assets/images/user/01.jpg',
+      image: './assets/images/user/01.jpg',
       link: '#',
       date_format: 'Just Now'
     },
     {
       title: 'New customer is join',
       sub_title: 'John Nik',
-      image: 'assets/images/user/02.jpg',
+      image: './assets/images/user/02.jpg',
       link: '#',
       date_format: '5 days ago'
     },
     {
       title: 'Updates Available',
       sub_title: '120 MB',
-      image: 'assets/images/small/jpg.svg',
+      image: './assets/images/small/jpg.svg',
       link: '#',
       date_format: 'Just Now'
     }

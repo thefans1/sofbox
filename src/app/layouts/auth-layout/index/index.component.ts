@@ -38,25 +38,25 @@ export class IndexComponent implements OnInit {
   authSlides = [
     {
       id: 1,
-      image: 'assets/images/login/1.png',
+      image: './assets/images/login/1.png',
       title: 'Manage your orders',
       description: 'It is a long established fact that a reader will be distracted by the readable content.'
     },
     {
       id: 2,
-      image: 'assets/images/login/1.png',
+      image: './assets/images/login/1.png',
       title: 'Manage your orders',
       description: 'It is a long established fact that a reader will be distracted by the readable content.'
     },
     {
       id: 3,
-      image: 'assets/images/login/1.png',
+      image: './assets/images/login/1.png',
       title: 'Manage your orders',
       description: 'It is a long established fact that a reader will be distracted by the readable content.'
     },
     {
       id: 4,
-      image: 'assets/images/login/1.png',
+      image: './assets/images/login/1.png',
       title: 'Manage your orders',
       description: 'It is a long established fact that a reader will be distracted by the readable content.'
     }

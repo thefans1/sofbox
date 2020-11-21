@@ -21,7 +21,7 @@ export class TrackingComponent implements OnInit {
   XAXISRANGE: any;
 
   optionsData: AnimationOptions = {
-    path: 'assets/images/small/data1.json'
+    path: './assets/images/small/data1.json'
   };
   public chart1 = {
     chart: {
@@ -77,22 +77,22 @@ export class TrackingComponent implements OnInit {
   public tranckingData = [
     {
       name: 'D-NO-1',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: false,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],
@@ -100,22 +100,22 @@ export class TrackingComponent implements OnInit {
     },
     {
       name: 'D-NO-2',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: true,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],
@@ -123,22 +123,22 @@ export class TrackingComponent implements OnInit {
     },
     {
       name: 'D-NO-3',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: false,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],
@@ -146,22 +146,22 @@ export class TrackingComponent implements OnInit {
     },
     {
       name: 'D-NO-4',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: false,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],
@@ -169,22 +169,22 @@ export class TrackingComponent implements OnInit {
     },
     {
       name: 'D-NO-5',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: false,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],
@@ -192,22 +192,22 @@ export class TrackingComponent implements OnInit {
     },
     {
       name: 'D-NO-6',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: false,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],
@@ -215,22 +215,22 @@ export class TrackingComponent implements OnInit {
     },
     {
       name: 'D-NO-7',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: false,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],
@@ -238,22 +238,22 @@ export class TrackingComponent implements OnInit {
     },
     {
       name: 'D-NO-8',
-      image: 'assets/images/user/1.jpg',
+      image: './assets/images/user/1.jpg',
       status: 1,
       isActive: false,
       item: [
         {
-          image : 'assets/images/page-img/tag_blue.svg',
+          image : './assets/images/page-img/tag_blue.svg',
           name : 'Flipkart',
           item_counts : 10,
         },
         {
-          image : 'assets/images/page-img/tag_red.svg',
+          image : './assets/images/page-img/tag_red.svg',
           name : 'Zomato',
           item_counts : 2,
         },
         {
-          image : 'assets/images/page-img/man.svg',
+          image : './assets/images/page-img/man.svg',
           name : 'Warehouse',
         }
       ],

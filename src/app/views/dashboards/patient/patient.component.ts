@@ -165,28 +165,28 @@ export class PatientComponent implements OnInit {
     {
       id: 1,
       name: 'Dr. Jay',
-      image:  'assets/images/user/01.jpg',
+      image:  './assets/images/user/01.jpg',
       description: 'Lorem Ipsum is simply dummy text..',
       date: 'Yesterday'
     },
     {
       id: 2,
       name: 'Dr. Lilly',
-      image:  'assets/images/user/02.jpg',
+      image:  './assets/images/user/02.jpg',
       description: 'Lorem Ipsum is simply dummy text..',
       date: 'Yesterday'
     },
     {
       id: 3,
       name: 'Dr. Steve ',
-      image:  'assets/images/user/03.jpg',
+      image:  './assets/images/user/03.jpg',
       description: 'Lorem Ipsum is simply dummy text..',
       date: 'Yesterday'
     },
     {
       id: 3,
       name: 'Dr. Mia',
-      image:  'assets/images/user/04.jpg',
+      image:  './assets/images/user/04.jpg',
       description: 'Lorem Ipsum is simply dummy text..',
       date: 'Yesterday'
     },

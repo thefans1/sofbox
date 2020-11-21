@@ -32,7 +32,7 @@
         </div>
         <div class="iq-booking-screen">
           <div class="text-center">
-            <img src="assets/images/screen.png" class="w-100" alt="">
+            <img src="./assets/images/screen.png" class="w-100" alt="">
             <span>All eyes this way please!</span>
           </div>
           <div class="row">
@@ -65,14 +65,14 @@
                             <a href="javascript:void(0);" [classList]="'iq-seat '+ (this.selected[row + '-' + column] === undefined ? '' : 'active')"
                                (click)="selectedSeat(index, row, column)"
                                >
-                              <img src="assets/images/small/04.svg" alt="" class="default">
-                              <img src="assets/images/small/05.svg" alt="" class="active-seat">
+                              <img src="./assets/images/small/04.svg" alt="" class="default">
+                              <img src="./assets/images/small/05.svg" alt="" class="active-seat">
                             </a>
                           </li>
                           <li class="list-inline-item" *ngIf="seat.tickets[row][column] === 1">
                             <span class="iq-seat bg-secondary">
-                              <img src="assets/images/small/04.svg" alt="" class="default">
-                              <img src="assets/images/small/05.svg" alt="" class="active-seat">
+                              <img src="./assets/images/small/04.svg" alt="" class="default">
+                              <img src="./assets/images/small/05.svg" alt="" class="active-seat">
                             </span>
                           </li>
                           <li class="list-inline-item li-blank" *ngIf="seat.tickets[row][column] === undefined">
@@ -136,13 +136,13 @@
             <dd class="col-sm-8 mb-0">D17, D18, D19 (3 Tickets)</dd>
           </dl>
           <hr class="mt-4 d-inline-block w-100">
-          <img src="assets/images/booking/02.jpg" class="w-100" alt="">
+          <img src="./assets/images/booking/02.jpg" class="w-100" alt="">
         </div>
         <span class="font-size-12 text-white mt-2 d-inline-block w-100">Your current state is Maharashtra</span>
       </div>
       <div class="iq-sidebar-payment">
         <h4 class="mb-4">Payment Method</h4>
-        <img src="assets/images/booking/03.png" class="w-100" alt="">
+        <img src="./assets/images/booking/03.png" class="w-100" alt="">
         <div class="custom-control custom-checkbox mt-4 ml-1">
           <input type="checkbox" class="custom-control-input" id="customCheck1">
           <label class="custom-control-label" for="customCheck1">Pay With Cash</label>

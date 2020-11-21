@@ -15,7 +15,7 @@ export class Dashboard1Component implements OnInit {
     this.usersData = [];
   }
   optionsData: AnimationOptions = {
-    path: 'assets/images/small/data.json'
+    path: './assets/images/small/data.json'
   };
 
   public chart1 = {
@@ -322,7 +322,7 @@ export class Dashboard1Component implements OnInit {
       vendor: 'iqonicdesign',
       description: 'Android 10 supported tablet with best features.',
       sales:  '20,019',
-      image:  'assets/images/page-img/01.jpg',
+      image:  './assets/images/page-img/01.jpg',
       rating: 5
     },
     {
@@ -331,7 +331,7 @@ export class Dashboard1Component implements OnInit {
       vendor: 'Apple',
       description: 'Latest model of apple watch for productivity.',
       sales:  '56,112',
-      image:  'assets/images/page-img/02.jpg',
+      image:  './assets/images/page-img/02.jpg',
       rating: 5
     },
     {
@@ -340,7 +340,7 @@ export class Dashboard1Component implements OnInit {
       vendor: 'qonic devices',
       description: 'Best ever combo package for work and personal use.',
       sales:  '9,895',
-      image:  'assets/images/page-img/03.jpg',
+      image:  './assets/images/page-img/03.jpg',
       rating: 5
     }
   ];
@@ -348,7 +348,7 @@ export class Dashboard1Component implements OnInit {
     {
       id: 1,
       name: 'Nik Jordan',
-      image:  'assets/images/user/01.jpg',
+      image:  './assets/images/user/01.jpg',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
       date: '2 day ago',
       status: 'Pending'
@@ -356,7 +356,7 @@ export class Dashboard1Component implements OnInit {
     {
       id: 2,
       name: 'Lily Wozniak',
-      image: 'assets/images/user/02.jpg',
+      image: './assets/images/user/02.jpg',
       description: 'It is a long established fact that a reader will be distracted by the readable layout.',
       date: '2 day ago',
       status: 'Working'
@@ -364,7 +364,7 @@ export class Dashboard1Component implements OnInit {
     {
       id: 3,
       name: 'Samuel Path',
-      image:  'assets/images/user/03.jpg',
+      image:  './assets/images/user/03.jpg',
       description: 'Lorem Ipsum is simply dummy text of the printing and typesetting industry.',
       date: '2 day ago',
       status: 'Open'
@@ -372,7 +372,7 @@ export class Dashboard1Component implements OnInit {
     {
       id: 4,
       name: 'Mia Mai',
-      image:  'assets/images/user/04.jpg',
+      image:  './assets/images/user/04.jpg',
       // tslint:disable-next-line:max-line-length
       description: 'It is a long established fact that a reader will be distracted by the readable content of a page when looking at its layout.',
       date: '2 day ago',
