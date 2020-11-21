@@ -21,7 +21,7 @@ export class TrackingComponent implements OnInit {
   XAXISRANGE: any;
 
   optionsData: AnimationOptions = {
-    path: '/assets/images/small/data1.json'
+    path: 'assets/images/small/data1.json'
   };
   public chart1 = {
     chart: {

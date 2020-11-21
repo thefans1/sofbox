@@ -15,7 +15,7 @@ export class Dashboard1Component implements OnInit {
     this.usersData = [];
   }
   optionsData: AnimationOptions = {
-    path: '/assets/images/small/data.json'
+    path: 'assets/images/small/data.json'
   };
 
   public chart1 = {

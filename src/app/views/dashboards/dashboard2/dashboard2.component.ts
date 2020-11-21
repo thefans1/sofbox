@@ -21,7 +21,7 @@ export class Dashboard2Component implements OnInit {
   XAXISRANGE: any;
 
   optionsData: AnimationOptions = {
-    path: '/assets/images/small/data1.json'
+    path: 'assets/images/small/data1.json'
   };
   public chart1 = {
     chart: {
@@ -334,15 +334,15 @@ export class Dashboard2Component implements OnInit {
   paymentTypeSlider = [
     {
       id: 1,
-      image: '/assets/images/booking/03.png',
+      image: 'assets/images/booking/03.png',
     },
     {
       id: 2,
-      image: '/assets/images/booking/03.png',
+      image: 'assets/images/booking/03.png',
     },
     {
       id: 3,
-      image: '/assets/images/booking/03.png',
+      image: 'assets/images/booking/03.png',
     }
   ];
   public getServerStatus($msg) {

@@ -13,7 +13,7 @@ export class TicketBookingComponent implements OnInit {
   selected = [];
 
   optionsData: AnimationOptions = {
-    path: '/assets/images/small/data2.json'
+    path: 'assets/images/small/data2.json'
   };
 
   dates = [
