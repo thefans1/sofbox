@@ -21,7 +21,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<app-loader></app-loader>\n\n<section class=\"sign-in-page bg-white\">\n  <div class=\"container-fluid p-0\">\n    <div class=\"row no-gutters\">\n      <div class=\"col-sm-6 align-self-center\">\n          <router-outlet></router-outlet>\n      </div>\n      <div class=\"col-sm-6 text-center\">\n        <div class=\"sign-in-detail text-white\" style=\"background: url(/assets/images/login/2.jpg) no-repeat 0 0; background-size: cover;\">\n          <a class=\"sign-in-logo mb-5\" href=\"javascript:void(0);\"><img src=\"/assets/images/logo-white.png\" class=\"img-fluid\" alt=\"logo\"></a>\n          <owl-carousel-o [options]=\"authSlideOptions\">\n            <ng-template carouselSlide *ngFor=\"let slide of authSlides\">\n              <div class=\"item\">\n                <img [src]=\"slide.image\" class=\"img-fluid mb-4\" alt=\"logo\">\n                <h4 class=\"mb-1 text-white\">{{ slide.title }}</h4>\n                <p>{{ slide.description }}</p>\n              </div>\n            </ng-template>\n          </owl-carousel-o>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n";
+    __webpack_exports__["default"] = "<app-loader></app-loader>\n\n<section class=\"sign-in-page bg-white\">\n  <div class=\"container-fluid p-0\">\n    <div class=\"row no-gutters\">\n      <div class=\"col-sm-6 align-self-center\">\n          <router-outlet></router-outlet>\n      </div>\n      <div class=\"col-sm-6 text-center\">\n        <div class=\"sign-in-detail text-white\" style=\"background: url(assets/images/login/2.jpg) no-repeat 0 0; background-size: cover;\">\n          <a class=\"sign-in-logo mb-5\" href=\"javascript:void(0);\"><img src=\"assets/images/logo-white.png\" class=\"img-fluid\" alt=\"logo\"></a>\n          <owl-carousel-o [options]=\"authSlideOptions\">\n            <ng-template carouselSlide *ngFor=\"let slide of authSlides\">\n              <div class=\"item\">\n                <img [src]=\"slide.image\" class=\"img-fluid mb-4\" alt=\"logo\">\n                <h4 class=\"mb-1 text-white\">{{ slide.title }}</h4>\n                <p>{{ slide.description }}</p>\n              </div>\n            </ng-template>\n          </owl-carousel-o>\n        </div>\n      </div>\n    </div>\n  </div>\n</section>\n";
     /***/
   },
 
@@ -240,22 +240,22 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
         };
         this.authSlides = [{
           id: 1,
-          image: '/assets/images/login/1.png',
+          image: 'assets/images/login/1.png',
           title: 'Manage your orders',
           description: 'It is a long established fact that a reader will be distracted by the readable content.'
         }, {
           id: 2,
-          image: '/assets/images/login/1.png',
+          image: 'assets/images/login/1.png',
           title: 'Manage your orders',
           description: 'It is a long established fact that a reader will be distracted by the readable content.'
         }, {
           id: 3,
-          image: '/assets/images/login/1.png',
+          image: 'assets/images/login/1.png',
           title: 'Manage your orders',
           description: 'It is a long established fact that a reader will be distracted by the readable content.'
         }, {
           id: 4,
-          image: '/assets/images/login/1.png',
+          image: 'assets/images/login/1.png',
           title: 'Manage your orders',
           description: 'It is a long established fact that a reader will be distracted by the readable content.'
         }];
