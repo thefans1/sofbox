@@ -21,7 +21,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"sign-in-from\">\n  <img src=\"assets/images/login/mail.png\" width=\"80\"  alt=\"\">\n  <h1 class=\"mt-3 mb-0\">Success !</h1>\n  <p>A email has been send to youremail@domain.com. Please check for an email from company and click on the included link to reset your password.</p>\n  <div class=\"d-inline-block w-100\">\n\n    <button type=\"submit\" class=\"btn btn-primary mt-3\">Back to Home</button>\n  </div>\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"sign-in-from\">\r\n  <img src=\"./assets/images/login/mail.png\" width=\"80\"  alt=\"\">\r\n  <h1 class=\"mt-3 mb-0\">Success !</h1>\r\n  <p>A email has been send to youremail@domain.com. Please check for an email from company and click on the included link to reset your password.</p>\r\n  <div class=\"d-inline-block w-100\">\r\n\r\n    <button type=\"submit\" class=\"btn btn-primary mt-3\">Back to Home</button>\r\n  </div>\r\n</div>\r\n";
     /***/
   },
 
@@ -41,7 +41,7 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
     /* harmony default export */
 
 
-    __webpack_exports__["default"] = "<div class=\"sign-in-from\">\n  <img src=\"assets/images/user/1.jpg\" alt=\"user-image\" class=\"rounded-circle\">\n  <h4 class=\"mt-3 mb-0\">Hi ! Michael Smith</h4>\n  <p>Enter your password to access the admin.</p>\n  <form class=\"mt-4\">\n\n    <div class=\"form-group\">\n      <label for=\"exampleInputEmail1\">Password</label>\n      <input type=\"password\" class=\"form-control mb-0\" id=\"exampleInputEmail1\"  placeholder=\"Password\">\n    </div>\n\n    <div class=\"d-inline-block w-100\">\n      <button type=\"submit\" class=\"btn btn-primary float-right\">Log In</button>\n    </div>\n\n  </form>\n</div>\n";
+    __webpack_exports__["default"] = "<div class=\"sign-in-from\">\r\n  <img src=\"./assets/images/user/1.jpg\" alt=\"user-image\" class=\"rounded-circle\">\r\n  <h4 class=\"mt-3 mb-0\">Hi ! Michael Smith</h4>\r\n  <p>Enter your password to access the admin.</p>\r\n  <form class=\"mt-4\">\r\n\r\n    <div class=\"form-group\">\r\n      <label for=\"exampleInputEmail1\">Password</label>\r\n      <input type=\"password\" class=\"form-control mb-0\" id=\"exampleInputEmail1\"  placeholder=\"Password\">\r\n    </div>\r\n\r\n    <div class=\"d-inline-block w-100\">\r\n      <button type=\"submit\" class=\"btn btn-primary float-right\">Log In</button>\r\n    </div>\r\n\r\n  </form>\r\n</div>\r\n";
     /***/
   },
 
